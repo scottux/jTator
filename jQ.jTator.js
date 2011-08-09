@@ -7,8 +7,8 @@
             var $darthFader = $(this);
             $darthFader.addClass('jTator').find('img:not(:first)').hide();
             function fadeNext() {
-                getFirst().fadeOut().appendTo($darthFader);
-                getFirst().fadeIn();
+                getFirst().stop(true, true).fadeOut().appendTo($darthFader);
+                getFirst().stop(true, true).fadeIn();
             }
             function getFirst(){
                 return $darthFader.find('img:first');
