@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>jTator</title>
+	<style type="text/css">
+		.jTator {
+		    position: relative;
+		}
+		    .jTator img {
+		        position: absolute;
+		        top: 0;
+		        left: 0;
+		    }
+		#fader {
+			width: 400px;
+			height: 400px;
+		}
+	</style>
+</head>
+<body>
+	<div id="fader">
+	    <img src="http://dummyimage.com/400x400/000/fff.png&amp;text=Luke" alt="Luke"/>
+	    <img src="http://dummyimage.com/400x400/000/fff.jpg&amp;text=I" alt="I"/>
+	    <img src="http://dummyimage.com/400x400/000/fff.png&amp;text=Am" alt="Am"/>
+	    <img src="http://dummyimage.com/400x400/000/fff.gif&amp;text=Your" alt="Your"/>
+	    <img src="http://dummyimage.com/400x400/000/fff.png&amp;text=Father" alt="Father"/>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jQ.jTator.js"></script>
+	<script>
+		$(function() {
+		    $('#fader').jTator({speed:2000});
+		});
+	</script>
+</body>
+</html>
