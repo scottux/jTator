@@ -7,4 +7,4 @@ Weighing in currently 328b compressed (up from initial 296b).
 Public domain: [http://unlicense.org](http://unlicense.org)
 
 ## Acknowledgements ##
-[https://github.com/scottux](Scott Carroll) and myself
+[Scott Carroll](https://github.com/scottux) and myself
