@@ -1,6 +1,6 @@
 # jQuery jTator #
-jTator is a lightweight jQuery plugin with the goal of just fading images in a rotation, no controls, no extra.
-Weighing in currently 328b compressed (up from initial 296b).
+jTator is a lightweight jQuery plugin with the goal of just fading images in a rotation, no controls, no extras.
+Weighing in currently 288b compressed.
 
 ## License ##
 
