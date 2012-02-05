@@ -7,4 +7,4 @@ Weighing in currently 288b compressed.
 Public domain: [http://unlicense.org](http://unlicense.org)
 
 ## Acknowledgements ##
-Scott Carroll and myself
+Scott Carroll / Steven Weathers
